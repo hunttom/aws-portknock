@@ -18,8 +18,9 @@ $ aws-portknock --help
 Usage: aws-portknock [OPTIONS]
 
 Options:
-  --port INTEGER  Port to open
-  --profile TEXT  Configuration profile to use
+  -p, --port INTEGER  Port to open
+  -r, --profile TEXT  Configuration profile to use
+  -t, --protocol TEXT Protocol to use (tcp, udp, icmp)
   --sgid TEXT     Security group ID
   --help          Show this message and exit.
 ```

@@ -75,12 +75,12 @@ def keep_open(sgid, port, protocol):
 
 
 @click.command()
-@click.option('--port', type=int, help='Port to open.')
-@click.option('--profile', default='default',
+@click.option('-p', '--port', type=int, help='Port to open.')
+@click.option('-r', '--profile', default='default',
               help='Configuration profile to use.')
-@click.option('--protocol', type=str,
+@click.option('-t', '--protocol', type=str,
               help='Options: "tcp", "upd", "icmp"')
-@click.option('--sgid', help='Security group ID.')
+@click.option('-s', '--sgid', help='Security group ID.')
 
 def cli(sgid, profile, port, protocol):
     config = configparser.ConfigParser()
