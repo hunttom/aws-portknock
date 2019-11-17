@@ -7,7 +7,6 @@
 boto3==1.9.48
 botocore==1.12.202        # via boto3
 click==7.0
-docutils==0.15.1          # via botocore
 jmespath==0.9.4           # via boto3, botocore
 python-dateutil==2.8.1    # via botocore
 six==1.13.0               # via python-dateutil
