@@ -4,10 +4,10 @@
 #
 #    pip-compile requirements.in
 #
-boto3==1.2.3
-botocore==1.3.15          # via boto3
-click==6.2
-docutils==0.12            # via botocore
-jmespath==0.9.0           # via boto3, botocore
-python-dateutil==2.4.2    # via botocore
-six==1.10.0               # via python-dateutil
+boto3==1.9.48
+botocore==1.12.202        # via boto3
+click==7.0
+docutils==0.15.1          # via botocore
+jmespath==0.9.4           # via boto3, botocore
+python-dateutil==2.8.1    # via botocore
+six==1.13.0               # via python-dateutil

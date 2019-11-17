@@ -7,6 +7,10 @@ Unlike the traditional port knocking utilities, this tool relies on
 the caller having the rights, through Amazon Web Services' Identity
 and Access Management roles, to modify a security group.
 
+## Requirements ##
+1. Running the latest version of Python3.
+2. Install necessary Python Libraries using `pip install -r requirements.txt`
+
 ## Usage ##
 
 ```
