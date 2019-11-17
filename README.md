@@ -37,8 +37,10 @@ For repeated use, create `$HOME/.aws/portknock.ini` containing, for example:
 [default]
 sgid = sg-12abcdef
 port = 22
+protocol = tcp
 
 [webprofile]
 sgid = sg-12abcdef
 port = 443
+protocol = udp
 ```
